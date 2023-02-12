@@ -60,3 +60,22 @@ for (let index = 0; index < 3; index++) {
     a();
     
 }
+
+//----------------------------------------4
+
+class Test {
+  constructor(name, price) {
+      this.name =  name;
+      this. price = price;
+
+  }
+  logProduct(){
+    console.log (`${this.name} is ${this.price} kr`);
+  }
+}
+  
+const test =() =>{
+   new Test('aaa', 1000).logProduct();
+};
+
+test();
